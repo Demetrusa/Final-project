@@ -1,0 +1,44 @@
+/* header */
+
+/* .image-wrapper{
+    position: absolute;
+} */
+.slidebar{
+    background-color: #000000;
+    /* background-color: white; */
+    max-width: 250px;
+    height: 100%;
+    position: fixed;
+    padding: 30px 0;
+    
+}
+
+.header-wraper {
+    display: flex;
+    position: relative;
+}
+.logo{
+    height: 50px;
+    color: blue;
+    margin-bottom: 30px;
+    
+}
+.logo-wraper{
+    text-align: center;
+}
+.header-wraper .slidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+}
+.header-wraper .slidebar ul li a{
+    color: #987942;
+    display:block;
+}
+.header-wraper .slidebar ul li a .fas{
+    width: 25px;
+
+}
+.header-wraper .slidebar ul li:hover {
+    background: #594f8d;
+}
